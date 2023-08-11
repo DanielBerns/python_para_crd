@@ -31,7 +31,7 @@ Podemos encontrar tutoriales de Git en
 ### ¿Para qué necesitamos Git?
 Git es un sistema que nos permite compartir archivos, ayudandonos a usar diferentes computadoras para trabajar, además de verificar las diferentes versiones que puedan generarse.
 
-Git organiza los datos en repositorios. Todo el material de este curso está en el [repositorio](https://github.com/DanielBerns/python_para_crd). 
+Git organiza los datos en repositorios. Todo el material de este curso está en el [repositorio python_para_crd](https://github.com/DanielBerns/python_para_crd). 
 
 
 ## Instalación de software en nuestras computadoras
