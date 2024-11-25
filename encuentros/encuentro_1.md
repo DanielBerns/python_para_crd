@@ -1,50 +1,30 @@
-# Preparándonos para programar
-
-## Entorno de trabajo
-
-Para escribir y ejecutar programas en [Python](https://docs.python.org/3/) tenemos varias alternativas:
-
-1. Emplear el entorno de trabajo [Visual Studio Code](https://code.visualstudio.com/docs/languages/python) de Microsoft, un programa que instalamos en nuestra computadora (forma local).
-
-2. Emplear [Google Colab](https://colab.research.google.com/) de Google, usando nuestro navegador como interfaz de entrada y salida y ejecutando los programas en servidores de Google (forma remota).
-
-3. Emplear [JupyterLite](https://jupyterlite.github.io/demo/lab/index.html) (sistema open source), que se ejecuta en nuestro navegador (forma local).
-
-4. Emplear el [tutorial de Python en W3Schools](https://www.w3schools.com/python/default.asp) (limitado a ejemplos sencillos, ejecución en forma remota).
-
-
-## Almacenamiento
-
-Vamos a compartir archivos en [Github](https://github.com/), uno de los servidores del [sistema Git](https://es.wikipedia.org/wiki/Git).
-
-Existen otros servidores de Git, como por ejemplo [Bitbucket](https://bitbucket.org/).
-
-Podemos encontrar tutoriales de Git en
-
-1. [Tutorial en Github](https://docs.github.com/en/get-started/quickstart/hello-world)
-
-2. [Tutorial en Bitbucket](https://www.atlassian.com/git/tutorials)
-
-3. [Tutorial en W3Schools](https://www.w3schools.com/git/)
-
-
-### ¿Para qué necesitamos Git?
-Git es un sistema que nos permite compartir archivos, ayudandonos a usar diferentes computadoras para trabajar, además de verificar las diferentes versiones que puedan generarse.
-
-Git organiza los datos en repositorios. Todo el material de este curso está en el [repositorio python_para_crd](https://github.com/DanielBerns/python_para_crd). 
-
-
-## Instalación de software en nuestras computadoras
-
-1. En las computadoras del laboratorio se ha preinstalado todo el software necesario.
-
-2. Si desean instalar el mismo software en sus computadoras personales, pueden recuperar los instaladores necesarios del directorio Descargas.
-
-3. También los instaladores pueden obtenerse de los siguientes sitios web:
-   - [Python](https://www.python.org/downloads/)
-   - [Git](https://git-scm.com/downloads)
-   - [Visual Studio](https://code.visualstudio.com/docs/languages/python)
-
-## Cuaderno del encuentro
+# Constantes, variables y flujo de control
 
 Este es [el cuaderno de este encuentro](./notebooks/01-teoria-constantes_variables_y_flujo_de-control.ipynb). 
+
+## Constantes
+
+Las constantes son datos que nunca cambian. En Python, una constante es 
+un valor que no puedes modificar una vez que lo has definido.
+¿Para qué sirven? Son útiles para valores que siempre serán iguales, como el número de días en una semana (7) o el valor de Pi (3.14159).
+¿Cómo se usan? En Python, no hay una forma estricta de definir constantes, pero se suele usar nombres en mayúsculas para indicar que un 
+valor no debe cambiar:
+
+    NUMERO_DIAS_SEMANA = 7
+
+## Variables
+
+Son como recipientes o cajas para guardar información.
+En Python, una variable puede contener un número (como la edad de una persona), una palabra (como el nombre de una ciudad) o hasta una lista 
+de cosas (como los nombres de clientes de un negocio).
+¿Cómo se usan? Definimos un nombre y luego le asignamos un valor. Por ejemplo:
+
+    edad = 30
+    nombre = "Juan"
+
+## Control de flujo
+
+Un programa está formado por una secuencia de instrucciones, que describen un 
+procedimiento o receta para transformar datos (constantes y variables) en resultados.
+En Python, el flujo de control te permite decidir qué hacer en cada momento, dependiendo de las condiciones.
+
